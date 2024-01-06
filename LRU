@@ -1,0 +1,11 @@
+A Least Recently Used (LRU) Cache organizes items in order of use, allowing to quickly identify which item hasn't been used for the longest amount of time.
+Becuse we redirect URL it make sense to remove least recently url and not popular one.
+
+Advantages –
+  Good performance: it takes into account the usage history of URL, and it can lead to faster application response times.
+  Efficient use of memory: LRU leads to efficient use of memory because it replaces the URL that has not been used for the longest time. 
+  Fairness: LRU is considered a fair algorithm because it takes into account the usage history of URL and replaces the least recently used URL first.
+ 
+Disadvantages –
+  It requires additional Data Structure to be implemented.
+  
